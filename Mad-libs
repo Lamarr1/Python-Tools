@@ -1,1 +1,39 @@
+# Python mad libs, made for Alek, good luck, don't get cought
 
+
+
+print "Mad libs booting"
+import time
+time.sleep(1)
+print "Mad libs booting."
+time.sleep(1)
+print "Mad libs booting.."
+time.sleep(1)
+print "Mad libs booting..."
+name = raw_input("Enter a name: ")
+first_aj = raw_input("Enter an adjective: ")
+sec_aj = raw_input("Enter an adjective: ")
+third_aj = raw_input("Enter an adjective: ")
+first_verb = raw_input("Enter a verb: ")
+second_verb = raw_input("Enter a verb: ")
+third_verb = raw_input("Enter a verb: ")
+first_noun = raw_input("Enter a noun: ")
+second_noun = raw_input("Enter a noun: ")
+third_noun = raw_input("Enter a noun: ")
+fourth_noun = raw_input("Enter a noun: ")
+animal = raw_input("Enter an animal: ")
+food = raw_input("Enter a food: ")
+fruit = raw_input("Enter a fruit: ")
+Number = raw_input("Enter a number: ")
+super_hero = raw_input("Enter a super-hero name: ")
+Country = raw_input("Enter a country: ")
+Dessert = raw_input("Enter a dessert: ")
+year = raw_input("Enter a year: ")
+STORY = "This morning I woke up and felt %s because %s was going to finally %s over the big %s %s. 
+On the other side of the %s were many %ss protesting to keep %s in stores. T
+he crowd began to %s to the rhythm of the %s, which made all of the %ss very %s. 
+%s tried to %s into the sewers and found %s rats. 
+Needing help, %s quickly called %s. %s appeared and saved %s by flying to %s and dropping %s into a puddle of %s. 
+%s then fell asleep and woke up in the year %s, in a world where %ss ruled the world."
+print STORY % (first_aj, name, first_verb, sec_aj, first_noun, second_noun, animal, food, second_verb, third_noun, 
+fruit, third_aj, name, third_verb, Number, name, super_hero, super_hero, name, Country, name, Dessert, name, year,fourth_noun)
